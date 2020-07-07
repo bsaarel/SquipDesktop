@@ -1,30 +1,30 @@
-from PyQt4 import QtGui, uic
+from PyQt5 import QtWidgets, uic
 import os
 # from common.clients.connection import connection
 from twisted.internet.defer import inlineCallbacks
 
 
-class actions_widget(QtGui.QWidget):
+class actions_widget(QtWidgets.QWidget):
     def __init__(self,reactor,cxn = None, parent=None):
         super(actions_widget, self).__init__(parent)
         self.reactor = reactor
         self.cxn = cxn
-        QtGui.QDialog.__init__(self)
+        QtWidgets.QDialog.__init__(self)
         self.use_second_397 = False
 
-        #self.second_397_DC_box = QtGui.QCheckBox('Second 397 DC') #used if there are two doppler cooling beams
-        #self.second_397_SD_box = QtGui.QCheckBox('Second 397 SD')
-        self.loading_button = QtGui.QPushButton('Loading')
-    	self.fromdc_button = QtGui.QPushButton('From Doppler Cooling')
-    	self.fromstate_button = QtGui.QPushButton('From State Detection')
-    	self.todc_button = QtGui.QPushButton('To Doppler Cooling')
-    	self.tostate_button = QtGui.QPushButton('To State Detection')
+        #self.second_397_DC_box = QtWidgets.QCheckBox('Second 397 DC') #used if there are two doppler cooling beams
+        #self.second_397_SD_box = QtWidgets.QCheckBox('Second 397 SD')
+        self.loading_button = QtWidgets.QPushButton('Loading')
+    	self.fromdc_button = QtWidgets.QPushButton('From Doppler Cooling')
+    	self.fromstate_button = QtWidgets.QPushButton('From State Detection')
+    	self.todc_button = QtWidgets.QPushButton('To Doppler Cooling')
+    	self.tostate_button = QtWidgets.QPushButton('To State Detection')
         #widget_ui.__init__(self)
     
-    	#self.setFrameStyle(QtGui.QFrame.Panel  | QtGui.QFrame.Sunken)
-        self.setSizePolicy(QtGui.QSizePolicy.MinimumExpanding, QtGui.QSizePolicy.Fixed)
+    	#self.setFrameStyle(QtWidgets.QFrame.Panel  | QtWidgets.QFrame.Sunken)
+        self.setSizePolicy(QtWidgets.QSizePolicy.MinimumExpanding, QtWidgets.QSizePolicy.Fixed)
     
-    	layout = QtGui.QGridLayout()
+    	layout = QtWidgets.QGridLayout()
     	layout.addWidget(self.loading_button, 0, 0)
     	layout.addWidget(self.fromdc_button, 1, 0)
     	layout.addWidget(self.todc_button, 1, 1)
@@ -201,7 +201,7 @@ class actions_widget(QtGui.QWidget):
         self.reactor.stop()  
         
 if __name__=="__main__":
-    a = QtGui.QApplication( [] )
+    a = QtWidgets.QApplication( [] )
     from common.clients import qt4reactor
     qt4reactor.install()
     from twisted.internet import reactor

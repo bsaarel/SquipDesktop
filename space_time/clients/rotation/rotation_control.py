@@ -1,17 +1,17 @@
-from PyQt4 import QtGui, uic, QtCore
+from PyQt5 import QtWidgets, uic, QtCore
 import os
 from common.clients.connection import connection
 from twisted.internet.defer import inlineCallbacks
 from common.clients.qtui.QCustomSpinBox import QCustomSpinBox
 
 
-class TextChangingButton(QtGui.QPushButton):
+class TextChangingButton(QtWidgets.QPushButton):
     """Button that changes its text to ON or OFF and colors when it's pressed""" 
     def __init__(self, parent = None):
         super(TextChangingButton, self).__init__(parent)
         self.setCheckable(False)
-        self.setFont(QtGui.QFont('MS Shell Dlg 2',pointSize=10))
-        self.setSizePolicy(QtGui.QSizePolicy.Minimum, QtGui.QSizePolicy.Minimum)
+        self.setFont(QtWidgets.QFont('MS Shell Dlg 2',pointSize=10))
+        self.setSizePolicy(QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Minimum)
         #connect signal for appearance changing
         self.toggled.connect(self.setAppearance)
         self.setAppearance(self.isDown())
@@ -25,22 +25,22 @@ class TextChangingButton(QtGui.QPushButton):
     def setAppearance(self, down):
         if down:
             self.setText('ON')
-            self.setPalette(QtGui.QPalette(QtCore.Qt.darkGreen))
+            self.setPalette(QtWidgets.QPalette(QtCore.Qt.darkGreen))
         else:
             self.setText('OFF')
-            self.setPalette(QtGui.QPalette(QtCore.Qt.black))
+            self.setPalette(QtWidgets.QPalette(QtCore.Qt.black))
     
     def sizeHint(self):
         return QtCore.QSize(37, 26)
 
 
-class rotation_widget(QtGui.QWidget):
+class rotation_widget(QtWidgets.QWidget):
     
     def __init__(self,reactor,cxn = None, parent=None):
         super(rotation_widget, self).__init__(parent)
         self.reactor = reactor
         self.cxn = cxn        
-        QtGui.QDialog.__init__(self)
+        QtWidgets.QDialog.__init__(self)
         self.connect()  
 
     @inlineCallbacks
@@ -73,21 +73,21 @@ class rotation_widget(QtGui.QWidget):
             
     def set_up_GUI(self):
         
-        self.frequency = QtGui.QDoubleSpinBox()
+        self.frequency = QtWidgets.QDoubleSpinBox()
         self.frequency.setSuffix(' kHz')
         self.frequency.setValue(0.)
         self.frequency.setRange(1.0e-9,1.0e3)
         self.frequency.setDecimals(4)
         self.frequency.setKeyboardTracking(False)
         
-        self.phase = QtGui.QDoubleSpinBox()
+        self.phase = QtWidgets.QDoubleSpinBox()
         self.phase.setSuffix(' degrees')
         self.phase.setValue(330.)
         self.phase.setRange(0.0,360.0)
         self.phase.setDecimals(1)
         self.phase.setKeyboardTracking(False)
                 
-        self.amplitude = QtGui.QDoubleSpinBox()
+        self.amplitude = QtWidgets.QDoubleSpinBox()
         self.amplitude.setSuffix(' Vpp')
         self.amplitude.setValue(10.)
         self.amplitude.setRange(2.0e-3,20.0)
@@ -98,24 +98,24 @@ class rotation_widget(QtGui.QWidget):
         self.state_button = TextChangingButton()
         self.state_button.setCheckable(False)
         
-        self.reset_button = QtGui.QPushButton('')
+        self.reset_button = QtWidgets.QPushButton('')
         
-        self.setSizePolicy(QtGui.QSizePolicy.MinimumExpanding, QtGui.QSizePolicy.Fixed)
+        self.setSizePolicy(QtWidgets.QSizePolicy.MinimumExpanding, QtWidgets.QSizePolicy.Fixed)
     
-        layout = QtGui.QGridLayout()
-        label = QtGui.QLabel("Sinusoid Status")
+        layout = QtWidgets.QGridLayout()
+        label = QtWidgets.QLabel("Sinusoid Status")
         layout.addWidget(label, 0, 0)
         layout.addWidget(self.state_button, 0, 1)
-        label = QtGui.QLabel("Frequency")
+        label = QtWidgets.QLabel("Frequency")
         layout.addWidget(label, 1, 0)
         layout.addWidget(self.frequency, 1, 1)
-        label = QtGui.QLabel("Amplitude")
+        label = QtWidgets.QLabel("Amplitude")
         layout.addWidget(label, 2, 0)
         layout.addWidget(self.amplitude, 2, 1)
-        label = QtGui.QLabel("Phase")
+        label = QtWidgets.QLabel("Phase")
         layout.addWidget(label, 3, 0)
         layout.addWidget(self.phase, 3, 1)
-        label = QtGui.QLabel("Reset CW")
+        label = QtWidgets.QLabel("Reset CW")
         layout.addWidget(label, 4, 0)
         layout.addWidget(self.reset_button, 4, 1)
     
@@ -192,7 +192,7 @@ class rotation_widget(QtGui.QWidget):
         self.reactor.stop()  
         
 if __name__=="__main__":
-    a = QtGui.QApplication( [] )
+    a = QtWidgets.QApplication( [] )
     from common.clients import qt4reactor
     qt4reactor.install()
     from twisted.internet import reactor

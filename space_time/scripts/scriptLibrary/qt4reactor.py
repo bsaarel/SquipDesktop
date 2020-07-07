@@ -43,8 +43,8 @@ import sys, time
 
 from zope.interface import implements
 
-from PyQt4.QtCore import QSocketNotifier, QObject, SIGNAL, QTimer, QCoreApplication
-from PyQt4.QtCore import QEventLoop
+from PyQt5.QtCore import QSocketNotifier, QObject, SIGNAL, QTimer, QCoreApplication
+from PyQt5.QtCore import QEventLoop
 
 from twisted.internet.interfaces import IReactorFDSet
 from twisted.python import log

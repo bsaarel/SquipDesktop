@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/common" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/common_backup" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lattice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pylabrad" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/scalabrad-web-server-1.1.0/bin/depot_tools" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/scalabrad-webDEVEL" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sqip" vcs="Git" />
+  </component>
+</project>
