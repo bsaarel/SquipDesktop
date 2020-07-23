@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0657eecb-b014-4f66-92a4-06f1a8446ed6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/LabradConv.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/common/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/Untitled1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/common/Untitled1.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/abstractdevices/fitter/analyzerWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/abstractdevices/fitter/analyzerWindow.py" afterDir="false" />
@@ -184,6 +179,7 @@
       <change beforePath="$PROJECT_DIR$/common/devel/bum/gui_scriptscanner2/tree_view/editors/spectrum_sensitivity_editor.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/devel/bum/gui_scriptscanner2/tree_view/editors/spectrum_sensitivity_editor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/devel/bum/gui_scriptscanner2/tree_view/editors/string_editor.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/devel/bum/gui_scriptscanner2/tree_view/editors/string_editor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/devel/bum/gui_scriptscanner2/tree_view/editors/undefined_parameter_editor.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/devel/bum/gui_scriptscanner2/tree_view/editors/undefined_parameter_editor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/gpibservers/gpib_server_v1.11.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/gpibservers/gpib_server_v1.11.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/lanservers/keysight_33600A (old).py" beforeDir="false" afterPath="$PROJECT_DIR$/common/lanservers/keysight_33600A (old).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/lanservers/keysight_33600A.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/lanservers/keysight_33600A.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/okfpgaservers/pulser/pmt_simu.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/okfpgaservers/pulser/pmt_simu.py" afterDir="false" />
@@ -553,15 +549,6 @@
       <change beforePath="$PROJECT_DIR$/lattice/scripts/scriptLibrary/qt4reactor.py" beforeDir="false" afterPath="$PROJECT_DIR$/lattice/scripts/scriptLibrary/qt4reactor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pylabrad/labrad/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylabrad/labrad/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pylabrad/labrad/util/qt4reactor.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylabrad/labrad/util/qt4reactor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space_time/clients/#daccalibrator.py#" beforeDir="false" afterPath="$PROJECT_DIR$/space_time/clients/#daccalibrator.py#" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space_time/clients/NEW_DAC_CONTROL.py" beforeDir="false" afterPath="$PROJECT_DIR$/space_time/clients/NEW_DAC_CONTROL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space_time/clients/PMT_Readout_GUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/space_time/clients/PMT_Readout_GUI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space_time/clients/Space_Time_GUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/space_time/clients/Space_Time_GUI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space_time/clients/newgui.py" beforeDir="false" afterPath="$PROJECT_DIR$/space_time/clients/newgui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space_time/clients/pyqt_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/space_time/clients/pyqt_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space_time/clients/quick_actions/quick_actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/space_time/clients/quick_actions/quick_actions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space_time/clients/rotation/rotation_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/space_time/clients/rotation/rotation_control.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space_time/scripts/scriptLibrary/qt4reactor.py" beforeDir="false" afterPath="$PROJECT_DIR$/space_time/scripts/scriptLibrary/qt4reactor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sqip/clients/COMPENSATION_CONTROL.py" beforeDir="false" afterPath="$PROJECT_DIR$/sqip/clients/COMPENSATION_CONTROL.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sqip/clients/DAC_CALIBRATOR_SQIP_chebfit.py" beforeDir="false" afterPath="$PROJECT_DIR$/sqip/clients/DAC_CALIBRATOR_SQIP_chebfit.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sqip/clients/DAC_CALIBRATOR_SQIP_chebfit_test.py.example" beforeDir="false" afterPath="$PROJECT_DIR$/sqip/clients/DAC_CALIBRATOR_SQIP_chebfit_test.py.example" afterDir="false" />
@@ -1226,8 +1213,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sqip/clients/SqipGUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+            <state relative-caret-position="156">
+              <caret line="118" column="4" lean-forward="true" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="4" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -1236,22 +1223,63 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/clients/InjectionLock_GUI_new.py">
+        <entry file="file://$PROJECT_DIR$/common/clients/DAC_CONTROL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+            <state relative-caret-position="-1127">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/gpibservers/keithley_2110_dmm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-593" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/gpibservers/keithley_2200_30.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/lanservers/keysight_33600A.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="65" column="12" lean-forward="true" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/opt/anaconda3/lib/python3.7/site-packages/labrad/gpib.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#731#768#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/clients/DAC_CONTROL.py">
+        <entry file="file://$PROJECT_DIR$/common/gpibservers/TektronixTDS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="237" column="21" selection-start-line="237" selection-start-column="21" selection-end-line="237" selection-end-column="21" />
+            <state relative-caret-position="-364" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/gpibservers/gpib_server_v1.11.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="613">
+              <caret line="92" column="19" lean-forward="true" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -1268,19 +1296,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/clients/PMT_CONTROL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
+            <state relative-caret-position="450">
               <caret line="32" column="25" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="25" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common/serialdevices/serial_server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1" />
           </provider>
         </entry>
       </file>
@@ -1294,6 +1315,8 @@
       <find>QFont</find>
       <find>graphwindow</find>
       <find>gpib</find>
+      <find>makeOpticsWidget</find>
+      <find>server</find>
     </findStrings>
     <replaceStrings>
       <replace>PyQt5</replace>
@@ -1312,6 +1335,7 @@
         <option value="$PROJECT_DIR$/common/clients/qtui/QCustomSpinBox.py" />
         <option value="$PROJECT_DIR$/common/clients/InjectionLock_GUI_new.py" />
         <option value="$PROJECT_DIR$/common/devel/RealSimpleGrapher/rsg.py" />
+        <option value="$PROJECT_DIR$/common/gpibservers/gpib_server_v1.11.py" />
       </list>
     </option>
   </component>
@@ -1321,8 +1345,8 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="234" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="154" />
     <option name="y" value="23" />
     <option name="width" value="1084" />
     <option name="height" value="834" />
@@ -1340,6 +1364,11 @@
             <path>
               <item name="LabradConv" type="b2602c69:ProjectViewProjectNode" />
               <item name="LabradConv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LabradConv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabradConv" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1403,16 +1432,19 @@
       <updated>1593669591421</updated>
       <workItem from="1593669600355" duration="4257000" />
       <workItem from="1593676757477" duration="1322000" />
+      <workItem from="1594095702356" duration="114000" />
+      <workItem from="1594164305799" duration="3507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5579000" />
+    <option name="totallyTimeSpent" value="9200000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="234" y="23" width="1084" height="834" extended-state="1" />
+    <frame x="154" y="23" width="1084" height="834" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25431862" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26391554" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1469,16 +1501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/clients/LASERDAC_CONTROL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/clients/qtui/QCustomSpinBox.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1498,7 +1520,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/clients/InjectionLock_GUI_new.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="360">
           <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -1506,26 +1528,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common/clients/LASERDAC_CONTROL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="114" column="53" lean-forward="true" selection-start-line="114" selection-start-column="53" selection-end-line="114" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sqip/clients/SqipGUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+        <state relative-caret-position="156">
+          <caret line="118" column="4" lean-forward="true" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="4" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/clients/DAC_CONTROL.py">
+    <entry file="file://$PROJECT_DIR$/common/serialdevices/serial_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="237" column="21" selection-start-line="237" selection-start-column="21" selection-end-line="237" selection-end-column="21" />
+        <state relative-caret-position="-523">
+          <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/clients/PMT_CONTROL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
+        <state relative-caret-position="450">
           <caret line="32" column="25" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="25" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -1533,9 +1565,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/serialdevices/serial_server.py">
+    <entry file="file://$PROJECT_DIR$/common/clients/DAC_CONTROL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1" />
+        <state relative-caret-position="-1127">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/gpibservers/TektronixTDS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/gpibservers/gpib_server_v1.11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="92" column="19" lean-forward="true" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/gpibservers/keithley_2110_dmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-593" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/opt/anaconda3/lib/python3.7/site-packages/labrad/gpib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+          <folding>
+            <element signature="e#731#768#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/gpibservers/keithley_2200_30.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/lanservers/keysight_33600A.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="65" column="12" lean-forward="true" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
+        </state>
       </provider>
     </entry>
   </component>
